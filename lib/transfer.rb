@@ -22,7 +22,7 @@ def execute_transaction
     @receiver.balence += @amount
     @status = "complete"
   #sender is giving to the receiver
-else
+else 
   "rejected"
 end
 end
