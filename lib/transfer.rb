@@ -17,7 +17,7 @@ else
  end
 
 def execute_transaction
-  if status
+  if @status =
     "complete"
   #sender is giving to the receiver
   
