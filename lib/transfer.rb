@@ -24,7 +24,7 @@ def execute_transaction
   #sender is giving to the receiver
 else 
   @status = "rejected"
-  return 
+  return "Transaction rejected. Please check your account balance."
 end
 end
 
