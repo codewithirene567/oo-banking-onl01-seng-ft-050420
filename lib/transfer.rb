@@ -19,7 +19,7 @@ else
 def execute_transaction
   if self.valid? 
   #sender is giving to the receiver
-  @receiver << @sender
+  
 end
 
 end
