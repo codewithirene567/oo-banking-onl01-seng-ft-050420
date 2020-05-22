@@ -24,6 +24,7 @@ def execute_transaction
   #sender is giving to the receiver
 else 
   @status = "rejected"
+  return 
 end
 end
 
