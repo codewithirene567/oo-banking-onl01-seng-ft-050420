@@ -17,7 +17,7 @@ else
  end
 
 def execute_transaction
-  if sender.balence.valid?
+  if sender.balence > amount.valid? 
     "complete"
   #sender is giving to the receiver
 else
