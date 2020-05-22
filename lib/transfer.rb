@@ -18,7 +18,7 @@ else
 
 def execute_transaction
   if @sender.balance > @amount && @status == "pending" && valid? 
-    @sender.balance -= add_amount
+    @sender.balance -= amount
     @receiver.balence += @amount
     @status = "complete"
   #sender is giving to the receiver
