@@ -23,5 +23,6 @@ def execute_transaction
 else
   "rejected"
 end
+end
 
 end
