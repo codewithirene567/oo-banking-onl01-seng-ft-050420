@@ -23,7 +23,7 @@ def execute_transaction
     @status = "complete"
   #sender is giving to the receiver
 else 
-  "rejected"
+  @status = "rejected"
 end
 end
 
