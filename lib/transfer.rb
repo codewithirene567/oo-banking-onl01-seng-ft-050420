@@ -17,7 +17,8 @@ else
  end
 
 def execute_transaction
-  if self.valid? 
+  if status
+    "complete"
   #sender is giving to the receiver
   
 end
