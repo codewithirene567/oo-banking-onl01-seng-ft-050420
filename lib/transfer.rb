@@ -17,10 +17,11 @@ else
  end
 
 def execute_transaction
-  if @status =
+  if self.valid?
     "complete"
   #sender is giving to the receiver
-  
+else
+  "rejected"
 end
 
 end
